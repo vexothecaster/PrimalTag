@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primal Tag</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .game-card {
+            display: flex;
+            flex-direction: column;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 20px;
+            padding: 15px;
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .game-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .game-card h3 {
+            margin: 15px 0 10px;
+            font-size: 1.4em;
+        }
+
+        .game-card p {
+            color: #555;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+
+        .btn {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #e53e36;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .game-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Primal Tag</h1>
+    <p>Explore Primal Tag</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Featured Games</h2>
+        <div class="game-gallery">
+            <!-- Game Card Example -->
+            <div class="game-card">
+                <img src="Primal Tag.png" alt="Game 1">
+                <h3>primal tag</h3>
+                <p>A fast-paced tag game where you race against other players in a jungle environment.</p>
+                <a href="https://discord.gg/F84afqapqQ" class="btn" target="_blank">Play on AppLab</a>
+            </div>
+
+            <div class="game-card">
+                <img src="Primal Tags.png" alt="Game 2">
+                <h3>primal tag</h3>
+                <p>Climb, swing, and jump through challenging obstacles to become the best tagger in town.</p>
+                <a href="https://discord.gg/F84afqapqQ" class="btn" target="_blank">Play on AppLab</a>
+            </div>
+
+            <div class="game-card">
+                <img src="Primal Tagss.png" alt="Game 3">
+                <h3>primal tag</h3>
+                <p>A thrilling chase where you'll need speed and strategy to avoid being tagged.</p>
+                <a href="https://discord.gg/F84afqapqQ" class="btn" target="_blank">Play on AppLab</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Join the Community</h2>
+        <p>Connect with other Primal Tag Monkeys!</p>
+        <p><a href="https://discord.gg/F84afqapqQ" target="_blank" class="btn">Join our Discord</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Primal Tag Fan Games | <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
